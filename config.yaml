@@ -6,10 +6,14 @@ theme: "toha"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+DefaultContentLanguage: ja
 languages:
+  ja:
+    languageName: Japanese
+    weight: 1
   en:
     languageName: English
-    weight: 1
+    weight: 2
 
 # Control TOC depth
 markup:
