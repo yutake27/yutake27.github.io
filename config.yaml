@@ -33,6 +33,7 @@ enableEmoji: true
 params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/yutake27/yutake27.github.io
+  gitBranch: source
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
