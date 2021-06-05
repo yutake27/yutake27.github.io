@@ -1,0 +1,56 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Master 2nd student
+# your company information
+company:
+  name: Tokyo institute of technology
+  url: "https://www.titech.ac.jp/"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a master 2nd student in Tokyo institute of technology. I am majoring in computer science. I am doing research about bioinformatics using deep learning. '
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "yutake27.cs@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/yutake27"
+
+- name: Google Scholar
+  icon: "fas fa-graduation-cap"
+  url: "https://scholar.google.co.jp/citations?user=dLC3fiAAAAAJ"
+
+- name: Qiita
+  icon: "fas fa-search"
+  url: "https://qiita.com/yutake27"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Hardworking
+  percentage: 85
+  color: orange
+
+- name: Curiosity
+  percentage: 85
+  color: blue
+
+- name: Team Work
+  percentage: 85
+  color: yellow

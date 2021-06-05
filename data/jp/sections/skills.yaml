@@ -1,0 +1,52 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: "/images/sections/skills/python.png"
+  summary: "Using as a main language. Having experience of data analysis, building machine learning models and web applications."
+  url: "https://www.python.org/"
+
+- name: Data Visualization
+  logo: "/images/sections/skills/seaborn.png"
+  summary: "Visualize data using pandas, matplotlib, seaborn, etc. to analyze research results."
+
+- name: Machine Learning Library
+  logo: "/images/sections/skills/pytorch-logo.png"
+  summary: "Use to build machine learning models in my research. Use Chainer, PyTorch, Scikit-learn as library. Having experience of  distributed learning using multi-GPU."
+
+- name: Other Language
+  logo: "/images/sections/skills/bash.png"
+  summary: "Basic knowledge and experience of Bash, C, C++, Java, JavaScript, html, and CSS."
+
+- name: Development tool
+  logo: "/images/sections/skills/git.png"
+  summary: "Basic knowledge and experience of git, GitHub, and Docker."
+
+- name: AWS
+  logo: "/images/sections/skills/aws.png"
+  summary: "Basic knowledge and experience of AWS. Having experience of building serverless web application using Lambda, API Gateway, S3, and SQS."
+  url: "https://aws.amazon.com/"
+
+- name: SQL
+  logo: "/images/sections/skills/sql.png"
+  summary: "Basic knowledge about SQL. Having experience of building application using SQLite3."
+
+- name: Django
+  logo: "/images/sections/skills/django.jpeg"
+  summary: "studying now"
+  url: "https://docs.djangoproject.com/"
+
+- name: Vue.js3
+  logo: "/images/sections/skills/vue.png"
+  summary: "studying now"
+  url: "https://v3.vuejs.org/"
