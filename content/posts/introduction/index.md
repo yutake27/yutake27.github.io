@@ -1,16 +1,22 @@
 ---
-title: "Introduction"
-date: 2021-06-02T08:06:25+06:00
-description: Introduction to Sample Post
+title: "はじめに"
+date: 2021-06-13T22:00:24+09:00
+description: ブログ開設について
 menu:
   sidebar:
-    name: Introduction
+    name: はじめに
     identifier: introduction
-    weight: 10
+    weight: 1
 ---
 
-Greeting! This is an introduction post. This post tests the followings:
+はじめまして．
 
-- Hero image is in the same directory as the post.
-- This post should be at top of the sidebar.
-- Post author should be the same as specified in `author.yaml` file.
+このたび日常のアウトプットのために技術ブログ兼ポートフォリオのようなものを作成しました．
+
+アウトプット自体は去年ごろから[Qiita](https://qiita.com/yutake27)で少しずつ行っていたのですが，
+もう少し気軽にアウトプットしていきたいなと思ったのと，個人でサイト運営をした方が色々と知識が身につくのではないかと思ったのでこのブログを作成しました！
+
+この技術ブログでは主にバイオインフォマティックスや機械学習，web開発技術について書いていきたいと思います．
+
+また[Notes](../../notes)にはよく使うコードのスニペット集を作っていきたいと思います．
+
