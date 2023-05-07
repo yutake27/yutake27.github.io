@@ -13,40 +13,38 @@ section:
 skills:
 - name: Python
   logo: "/images/sections/skills/python.png"
-  summary: "Using as a main language. Having experience of data analysis, building machine learning models and web applications."
+  summary: "Used for about 5 years. Having experience of data analysis, building machine learning models and developing web applications."
   url: "https://www.python.org/"
 
-- name: Data Visualization
-  logo: "/images/sections/skills/seaborn.png"
-  summary: "Visualize data using pandas, matplotlib, seaborn, etc. to analyze research results."
-
-- name: Machine Learning Library
+- name: Machine Learning
   logo: "/images/sections/skills/pytorch-logo.png"
-  summary: "Use to build machine learning models in my research. Use Chainer, PyTorch, Scikit-learn as library. Having experience of  distributed learning using multi-GPU."
+  summary: "Use to build machine learning models in my research at university. Having experience of  distributed learning using multi-GPU."
 
-- name: Other Language
-  logo: "/images/sections/skills/bash.png"
-  summary: "Basic knowledge and experience of Bash, C, C++, Java, JavaScript, html, and CSS."
+- name: React
+  logo: "/images/sections/skills/react.png"
+  summary: "Used for about 1 years for work."
+  url: "https://react.dev/"
 
-- name: Development tool
-  logo: "/images/sections/skills/git.png"
-  summary: "Basic knowledge and experience of git, GitHub, and Docker."
+- name: Angular
+  logo: "/images/sections/skills/angular.png"
+  summary: "Used for about 1 years for work."
+  url: "https://angular.io/"
+
+- name: Django
+  logo: "/images/sections/skills/django.jpeg"
+  summary: "Used for about 1 years for work."
+  url: "https://docs.djangoproject.com/"
+
+- name: Vue
+  logo: "/images/sections/skills/vue.png"
+  summary: "Able to read and understand code."
+  url: "https://v3.vuejs.org/"
 
 - name: AWS
   logo: "/images/sections/skills/aws.png"
   summary: "Basic knowledge and experience of AWS. Having experience of building serverless web application using Lambda, API Gateway, S3, and SQS."
   url: "https://aws.amazon.com/"
 
-- name: SQL
-  logo: "/images/sections/skills/sql.png"
-  summary: "Basic knowledge about SQL. Having experience of building application using SQLite3."
-
-- name: Django
-  logo: "/images/sections/skills/django.jpeg"
-  summary: "studying now"
-  url: "https://docs.djangoproject.com/"
-
-- name: Vue.js3
-  logo: "/images/sections/skills/vue.png"
-  summary: "studying now"
-  url: "https://v3.vuejs.org/"
+- name: Other Language
+  logo: "/images/sections/skills/bash.png"
+  summary: "Basic knowledge and experience of Bash, C, C++, and Java"
