@@ -4,3 +4,4 @@ assets/images/site/sample*
 assets/images/author/sample*
 !.github/*
 .*
+node_modules
