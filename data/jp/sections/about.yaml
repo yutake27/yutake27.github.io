@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Master 2nd student
+designation: Web engineer
 # your company information
 company:
-  name: Tokyo institute of technology
-  url: "https://www.titech.ac.jp/"
+  name: atama plus
+  url: "https://corp.atama.plus/"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a master 2nd student in Tokyo institute of technology. I am majoring in computer science. I am doing research about bioinformatics using deep learning. '
+summary: 'I am a web engineer. I develop both backend and frontend using Python, React, Angular, etc'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -38,6 +38,10 @@ socialLinks:
 - name: Qiita
   icon: "fas fa-search"
   url: "https://qiita.com/yutake27"
+
+- name: Zenn
+  icon: "fas fa-blog"
+  url: "https://zenn.dev/yutake27"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
