@@ -24,7 +24,7 @@ jobs:
           hugo-version: '0.111.3'
           extended: true
 
-      -name: install modules
+      - name: install modules
         run: |
           hugo mod tidy
           hugo mod npm pack
