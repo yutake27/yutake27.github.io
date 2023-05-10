@@ -1,36 +1,35 @@
-name: Deploy to Github Pages
+name: GitHub Pages
+# ref: https://github.com/peaceiris/actions-hugo
 
-# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
-    - source
+      - source  # Set a branch to deploy
+  pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-    # checkout to the commit that has been pushed
-    - uses: actions/checkout@v2.3.4
-      with:
-        submodules: true  # Fetch Hugo themes (true OR recursive)
-        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-    # install Hugo
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.5.0
-      with:
-        hugo-version: 'latest'
-        extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+          # extended: true
 
-    # build website
-    - name: Build
-      run: hugo --minify
+      - name: Build
+        run: hugo --minify
 
-    # push the generated content into the `main` (former `master`) branch.
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.8.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: main # if your main branch is `master` use that here.
-        publish_dir: ./public
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/source' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
